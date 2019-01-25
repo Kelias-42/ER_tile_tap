@@ -121,6 +121,7 @@ int		ft_check_sequence(int sequence[9], int fd)
 	int i;
 	int tmp;
 
+	srand(time(NULL));
 	buf[0] = 0;
 	buf[1] = '\0';
 	i = 0;
